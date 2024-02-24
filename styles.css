@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.login-section,
+.courses-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.login-section h2,
+.courses-section h2 {
+  margin-top: 0;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.course-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.course-item h3 {
+  margin-top: 0;
+}
+
+.like-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  background-color: #0056b3;
+}
