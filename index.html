@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EduMoove</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educours - Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mattone:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>EduMoove</h1>
-  </header>
-  <main>
-    <section class="login-section">
-      <h2>Connexion</h2>
-      <form id="login-form">
-        <input type="email" placeholder="Adresse e-mail" required>
-        <input type="password" placeholder="Mot de passe" required>
-        <button type="submit">Se connecter</button>
-      </form>
-      <p>Vous n'avez pas de compte ? <a href="#">Créer un compte</a></p>
-    </section>
-    <section class="courses-section">
-      <h2>Derniers cours publiés</h2>
-      <div id="courses-list">
-        <!-- Liste des cours publiés -->
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 EduMoove</p>
-  </footer>
-  <script src="app.js"></script>
+    <div class="accueil-container">
+        <div class="illustrations">
+            <div class="point point1"></div>
+            <div class="point point2"></div>
+            <div class="point point3"></div>
+            <!-- Ajout du logo -->
+            <img class="logo" src="https://i.imgur.com/pwZODBN.png" alt="Logo Educours">
+        </div>
+        <div class="titre">
+            <h1>Educours</h1>
+            <h2>Pour un apprentissage collectif</h2>
+        </div>
+        <a href="connexion.html" class="bouton-connexion">Se connecter</a>
+        <p class="creer-compte">Pas encore de compte ? <a href="#">Créer un compte</a></p>
+    </div>
 </body>
 </html>
